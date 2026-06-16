@@ -1,0 +1,43 @@
+body{
+    font-family:"Times New Roman", serif;
+    background:#f8f9fa;
+}
+
+.navbar-brand{
+    font-weight:bold;
+}
+
+.hero img{
+    height:500px;
+    object-fit:cover;
+}
+
+.card{
+    border:none;
+}
+
+.card:hover{
+    transform:translateY(-5px);
+    transition:0.3s;
+}
+
+footer{
+    background:#212529;
+    color:white;
+    text-align:center;
+    padding:15px;
+    margin-top:40px;
+}
+
+h1,h2,h3,h4,h5{
+    font-weight:bold;
+}
+
+.btn-primary{
+    background:#0d6efd;
+    border:none;
+}
+
+.btn-primary:hover{
+    background:#0b5ed7;
+}
